@@ -90,6 +90,23 @@
   background: linear-gradient(90deg, #f7971e, #ffd200);
   color: #333;
 }
+.mother-bg {
+  background: linear-gradient(90deg, #fffbe6 60%, #f7ecd7 100%);
+  color: #7a5a00 !important;
+}
+.child-bg {
+  background: linear-gradient(90deg, #e6fff7 60%, #d7f7ec 100%);
+  color: #0a4d3c !important;
+}
+.exclusive-bg {
+  background: linear-gradient(90deg, #f7e6ff 60%, #e7d7f7 100%);
+  color: #4e2a4e !important;
+}
+.link-desc {
+  color: #888;
+  font-size: 0.98em;
+  margin-top: 2px;
+}
 .link-url {
   margin-bottom: 12px;
   display: flex;
