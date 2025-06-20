@@ -1,18 +1,24 @@
 .site-header {
-  background: rgba(255, 255, 255, 0.85);
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
-  padding: 32px 0 18px 0;
+  background: linear-gradient(120deg, #f6f8fa 60%, #e0e7ff 100%);
+  box-shadow: 0 2px 12px rgba(78, 84, 200, 0.06);
+  padding: 24px 0 16px 0;
   text-align: center;
   border-bottom-left-radius: 32px;
   border-bottom-right-radius: 32px;
   margin-bottom: 32px;
 }
+
 .site-header h1 {
-  font-size: 2.4rem;
   font-weight: 700;
   color: #4e54c8;
   margin: 0 0 8px 0;
   letter-spacing: 2px;
+  font-size: 2rem;
+  text-shadow: 0 1px 8px #fff6;
+  background: none;
+  -webkit-background-clip: initial;
+  -webkit-text-fill-color: initial;
+  background-clip: initial;
 }
 .site-header p {
   color: #666;
