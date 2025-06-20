@@ -1,19 +1,18 @@
 .site-header {
   background: linear-gradient(120deg, #f6f8fa 60%, #e0e7ff 100%);
   box-shadow: 0 2px 12px rgba(78, 84, 200, 0.06);
-  padding: 24px 0 16px 0;
+  padding: 16px 0 12px 0;
   text-align: center;
   border-bottom-left-radius: 32px;
   border-bottom-right-radius: 32px;
   margin-bottom: 32px;
 }
 
-.site-header h1 {
+.site-header h2 {
   font-weight: 700;
   color: #4e54c8;
   margin: 0 0 8px 0;
   letter-spacing: 2px;
-  font-size: 2rem;
   text-shadow: 0 1px 8px #fff6;
   background: none;
   -webkit-background-clip: initial;
@@ -33,7 +32,7 @@
   bottom: 0;
   width: 100%;
   text-align: center;
-  padding: 18px 0 12px 0;
+  padding: 8px 0 12px 0;
   color: #888;
   font-size: 1rem;
   background: rgba(255, 255, 255, 0.7);
