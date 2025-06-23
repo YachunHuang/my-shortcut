@@ -93,7 +93,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6" *ngIf="isInternalIp">
         <div class="link-info">
           <span class="link-title mother-bg">母</span>
           <div class="link-url">
@@ -103,6 +103,9 @@
           </div>
           <div style="color: #888; font-size: 0.98em; margin-top: 2px">
             DB 每日定時還原到子站，只保留 demo 用的公司別
+          </div>
+          <div class="link-desc" style="color: #d32f2f; font-weight: bold">
+            ⚠️ 僅限內部使用，勿外流
           </div>
         </div>
       </div>
