@@ -31,29 +31,5 @@
   </head>
   <body>
     <app-root></app-root>
-    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
-    <script>
-      window.cookieconsent.initialise({
-        palette: {
-          popup: { background: "#252e39" },
-          button: { background: "#14a7d0" },
-        },
-        content: {
-          message: "本網站使用 Cookies 來改善使用者體驗。",
-          dismiss: "同意",
-          link: "了解更多",
-        },
-        onStatusChange: function (status) {
-          if (status === "allow") {
-            var script = document.createElement("script");
-            script.async = true;
-            script.src =
-              "https://www.googletagmanager.com/gtag/js?id=G-SSH71Z034S";
-            document.head.appendChild(script);
-            script.onload = initGA;
-          }
-        },
-      });
-    </script>
   </body>
 </html>
